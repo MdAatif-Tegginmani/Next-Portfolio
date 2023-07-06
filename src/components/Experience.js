@@ -2,13 +2,16 @@ import React from 'react'
 
 
 const Details = ({position , company, companyLink,time,address ,work}) =>{
-    return <li>
-        <div>
-            <h3>{position}&nbsp; <a href={companyLink}>@{company}</a></h3>
-            <span>
+    return <li className='my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between '>
+        <div >
+            <h3 className='capitalize font-bold text-2xl '>{position}&nbsp; <a href={companyLink}
+            target='_blank'
+            className='text-primary capitalize '
+            >@{company}</a></h3>
+            <span className='capitalize font-medium text-dark/75'>
                 {time} | {address}
             </span>
-            <p>
+            <p className='font-medium w-full '>
                 {work}
             </p>
         </div>
@@ -23,11 +26,16 @@ const Experience = () => {
       Experience
     </h2>
     <div className='w-[75%] mx-auto relative'>
-        <ul>
+   
+    <div className='absolute left-8 top-0 w-[4px] h-full bg-dark origin-top' />
+    
+   
+        <ul className='w-full flex flex-col items-start justify-between ml-4'>
             <Details
             position='Jr Software Developer' company='Fynsis Softlabs'
-         time="   2022-2023"  address='Bengaluru , India '
-           work='            dadha adalkda dajdajd ajdakdj adha adalkd adha adalkdadha adalkd adha adalkdadha adalkd vadha ' 
+            companyLink='www.abc.com'
+            time="   2022-2023"  address='Bengaluru , India '
+            work='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor id aliquet lectus proin nibh nisl condimentum. Risus quis varius quam quisque id diam vel. Luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor. Augue eget arcu dictum varius duis at. Eget est lorem ipsum dolor sit amet consectetur adipiscing elit. Vulputate mi sit amet mauris.' 
             
             />
         </ul>
