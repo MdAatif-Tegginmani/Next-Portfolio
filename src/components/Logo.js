@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import {motion} from "framer-motion"
+import {motion} from "framer-motion" 
 
 
 const MotionLink =motion(Link)
@@ -16,7 +16,7 @@ const Logo = () => {
             transition: { duration: 1, repeat: Infinity }
           }}
         >
-          AK
+         AK
         </MotionLink>
       </div>
     );

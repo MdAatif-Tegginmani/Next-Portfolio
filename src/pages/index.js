@@ -6,7 +6,6 @@ import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import { LinkArrow } from "@/components/Icons";
 import HireMe from "@/components/HireMe";
-import lightBulb from '@/../public/images/svgs/miscellaneous_icons_1.svg'
 
 export default function Home() {
   return (
@@ -54,10 +53,10 @@ export default function Home() {
 
           </div>
         </Layout>
-        <HireMe />
         
-
-      </main>
+        
+        </main>
     </>
-  );
-}
+    );
+  }
+  // <HireMe />

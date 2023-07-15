@@ -7,7 +7,7 @@ const Details = ({position , company, companyLink,time,address ,work}) =>{
             <h3 className='capitalize font-bold text-2xl '>{position}&nbsp; <a href={companyLink}
             target='_blank'
             className='text-primary capitalize '
-            >@{company}</a></h3>
+             >@{company}</a></h3>
             <span className='capitalize font-medium text-dark/75'>
                 {time} | {address}
             </span>
