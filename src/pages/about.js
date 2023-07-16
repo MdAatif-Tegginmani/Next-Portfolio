@@ -24,10 +24,10 @@ const about = () => {
                                 Biography
                             </h2>
                             <p className="font-medium">
-                               Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, dolores adipisci doloribus dolore molestias fugiat similique rem cumque iusto deleniti cupiditate deserunt! Repellat, debitis labore!
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, dolores adipisci doloribus dolore molestias fugiat similique rem cumque iusto deleniti cupiditate deserunt! Repellat, debitis labore!
                             </p>
 
-                           
+
                             <p className="font-medium my-4">
                                 Whether Im working on a website, mobile app, or other digital
                                 product, I bring my commitment to design excellence and
@@ -37,17 +37,17 @@ const about = () => {
                             </p>
                         </div>
                         <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8">
-                        <Image
-                            src={ProfilePic}
-                            alt="Vectiqa"
-                            className="w-full h-auto rounded-2xl"
-                        />
-                            <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark">
-                            </div>
-                            
+                            <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark"/>
+                                <Image
+                                    src={ProfilePic}
+                                    alt="Vectiqa"
+                                    className="w-full h-auto rounded-2xl"
+                                />
+                           
+
                         </div>
                     </div>
-                    <Skills/>
+                    <Skills />
                     <Experience />
                     <Education />
                 </Layout>
