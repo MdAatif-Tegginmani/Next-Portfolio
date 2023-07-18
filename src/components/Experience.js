@@ -2,7 +2,7 @@ import React from 'react'
 
 
 const Details = ({position , company, companyLink,time,address ,work}) =>{
-    return <li className='my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between '>
+    return <li className='my-4 w-[60%] mx-auto flex flex-col items-center justify-between '>
         <div >
             <h3 className='capitalize font-bold text-2xl '>{position}&nbsp; <a href={companyLink}
             target='_blank'
@@ -21,7 +21,7 @@ const Details = ({position , company, companyLink,time,address ,work}) =>{
 
 const Experience = () => {
   return (
-    <div className='my-64'>
+    <div className='my-36'>
     <h2 className='font-bold text-8xl mb-32 w-full text-center'>
       Experience
     </h2>
