@@ -16,7 +16,7 @@ const Skills = () => {
         Skills
       </h2>
 
-      <div className="grid grid-cols-5 justify-center  items-center text-center mx-40  py-4 px-12 text-lg">
+      <div className="grid grid-cols-5 justify-center  items-center text-center mx-40  py-4 px-12 text-lg ">
         <div className="p-12 cursor-pointer justify-center items-center">
           <div className=" transform transition-transform duration-500 hover:translate-y-[-20px]">
             <Image src={Html} alt="" />
