@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Layout from "@/components/Layout";
 import Image from "next/image";
-import propfilePic from "@/../public/images/profile/developer-pic.png";
+import propfilePic from "@/../public/images/profile/developerPIC.png";
 import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import { LinkArrow } from "@/components/Icons";
@@ -21,7 +21,7 @@ export default function Home() {
             <div className="w-1/2 flex flex-col items-center self-center">
               <AnimatedText
                 text="Turning Vision Into Reality With Code And Design ."
-                className="!text-6xl"
+                className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
 
               <p>
@@ -40,11 +40,11 @@ export default function Home() {
             </div>
 
 
-            <div className="w-1/2">
+            <div className="w-1/3">
               <Image
                 src={propfilePic}
                 alt="MdAatif"
-                className="w-full h-auto" 
+                className="w-auto h-auto" priority 
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
             </div>

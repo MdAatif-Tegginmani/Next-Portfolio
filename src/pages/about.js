@@ -42,6 +42,9 @@ const about = () => {
                                     src={ProfilePic}
                                     alt="Vectiqa"
                                     className="w-full h-auto rounded-2xl"
+                                    priority 
+                                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+
                                 />
                            
 
