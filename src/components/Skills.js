@@ -12,11 +12,11 @@ import Framer from '@/../public/images/icons/framer.png'
 const Skills = () => {
   return (
     <>
-      <h2 className="font-bold text-8xl mt-64 w-full text-center mb-12">
+      <h2 className="font-bold text-8xl mt-40 w-full text-center mb-12">
         Skills
       </h2>
 
-      <div className="grid grid-cols-4 justify-center  items-center text-center mx-20  py-4 px-12 text-lg ">
+      <div className="grid grid-cols-4 justify-center  items-center text-center mx-20  p-36 text-lg sm:grid-cols-2    ">
         <div className="p-12 cursor-pointer justify-center items-center">
           <div className=" transform transition-transform duration-500 hover:translate-y-[-20px]">
             <Image src={Html} alt="" />
@@ -56,7 +56,7 @@ const Skills = () => {
             <Image src={Next} alt="" />
           </div>
         </div>
-        <div className="p-20 cursor-pointer justify-center items-center">
+        <div className="p-20 md:p-12 lg:p-8 cursor-pointer justify-center items-center ">
           <div className=" transform transition-transform duration-500 hover:translate-y-[-20px]">
             <Image src={Framer} alt="" />
           </div>
