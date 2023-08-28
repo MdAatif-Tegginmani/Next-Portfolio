@@ -16,8 +16,8 @@ const Skills = () => {
         Skills
       </h2>
 
-      <div className="grid grid-cols-4 justify-center  items-center text-center mx-20  p-36 text-lg sm:grid-cols-2    ">
-        <div className="p-12 cursor-pointer justify-center items-center">
+      <div className="grid grid-cols-4 xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 justify-center items-center text-center mx-4 sm:mx-2 md:mx-16 p-44 md:p-12 lg:p-20 xl:p-32 text-base md:text-lg lg:text-xl   ">
+      <div className="p-12 cursor-pointer justify-center items-center">
           <div className=" transform transition-transform duration-500 hover:translate-y-[-20px]">
             <Image src={Html} alt="" />
           </div>
@@ -51,13 +51,13 @@ const Skills = () => {
             <Image src={Node} alt="" />
           </div>
         </div>
-        <div className="p-12 cursor-pointer  justify-center items-center">
-          <div className="   transform transition-transform duration-500 hover:translate-y-[-20px]">
+        <div className="p-12 cursor-pointer  justify-center items-center ">
+          <div className="   transform transition-transform duration-500 hover:translate-y-[-20px] ">
             <Image src={Next} alt="" />
           </div>
         </div>
-        <div className="p-20 md:p-12 lg:p-8 cursor-pointer justify-center items-center ">
-          <div className=" transform transition-transform duration-500 hover:translate-y-[-20px]">
+        <div className="p-20 md:p-16 lg:p-16 cursor-pointer justify-center items-center  ">
+          <div className=" transform transition-transform duration-500 hover:translate-y-[-20px] bg-opacity-5  ">
             <Image src={Framer} alt="" />
           </div>
         </div>
