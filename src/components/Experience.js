@@ -8,7 +8,7 @@ const Details = ({position , company, companyLink,time,address ,work}) =>{
             target='_blank'
             className='text-primary capitalize '
              >@{company}</a></h3>
-            <span className='capitalize font-medium text-dark/75 xs:text-sm'>
+            <span className='capitalize font-medium text-dark/75 dark:text-light xs:text-sm'>
                 {time} | {address}
             </span>
             <p className='font-medium w-full md:text-sm '>
@@ -35,7 +35,7 @@ const Experience = () => {
             position='Software Developer Intern'  company='Fynsis Softlabs'
             companyLink='www.abc.com'
             time="  March 2022 - September 2022"  address='Bengaluru , India '
-            work='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor id aliquet lectus proin nibh nisl condimentum. Risus quis varius quam quisque id diam vel. Luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor. Augue eget arcu dictum varius duis at. Eget est lorem ipsum dolor sit amet consectetur adipiscing elit. Vulputate mi sit amet mauris.' 
+            work='As a software developer working on CRM and ERP systems, I have successfully completed projects involving frontend development for businesses and clients. These projects include designing and implementing user friendly interfaces for CRM functionalities such as contact management, lead tracking, and customer support.Additionally, I have contributed to building frontend solutions for ERP modules like finance and Hr using javascript and frameworks like react.js and next.js .' 
             
             />
         </ul>

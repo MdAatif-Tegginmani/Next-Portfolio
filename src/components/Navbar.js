@@ -78,13 +78,13 @@ const Navbar = () => {
             >
                 <TwitterIcon />
             </motion.a>
-            <motion.a href='https://twitter.com' target={"_blank"}
+            <motion.a href='https://github.com/MdAatif-Tegginmani' target={"_blank"}
                 whileHover={{ y: -3 }}
                 whileTap={{ scale: 0.9 }}
                 className='w-7 mx-2 '>
                 <GithubIcon />
             </motion.a>
-            <motion.a href='https://twitter.com' target={"_blank"}
+            <motion.a href='https://www.linkedin.com/in/mdaatif/' target={"_blank"}
                 whileHover={{ y: -3 }}
                 whileTap={{ scale: 0.9 }}
                 className='w-7 ml-2'>

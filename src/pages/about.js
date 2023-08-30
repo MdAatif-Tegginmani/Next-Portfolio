@@ -29,14 +29,11 @@ const about = () => {
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75">
                 Biography
               </h2>
-              <p className="font-medium">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Perspiciatis, dolores adipisci doloribus dolore molestias fugiat
-                similique rem cumque iusto deleniti cupiditate deserunt!
-                Repellat, debitis labore!
+              <p className="font-medium    ">
+              I am Md Aatif, from Bijapur, Karnataka. Despite my Mechanical Engineering degree from BLDEA College of Engineering and Technology, my journey took an unexpected turn. With a background in design, I stumbled upon the world of front-end development. Over the past 1.5 years, I have embraced JavaScript, blending my engineering skills with coding creativity. My mission is to combine precision and design in the digital world.
               </p>
 
-              <p className="font-medium my-4">
+              <p className="font-medium mt-8  ">
                 Whether Im working on a website, mobile app, or other digital
                 product, I bring my commitment to design excellence and
                 user-centered thinking to every project I work on. I look
