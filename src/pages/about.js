@@ -13,7 +13,7 @@ const about = () => {
   return (
     <>
       <Head>
-        <title>Vectiqa | About Page</title>
+        <title>Md Aatif | About Page</title>
         <meta name="description" content="any description" />
       </Head>
       

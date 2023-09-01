@@ -99,7 +99,7 @@ const projects = () => {
   return (
     <>
       <Head>
-        <title>Vectiqa | Projects Page</title>
+        <title>Md Aatif | Projects Page</title>
         <meta name="description" content="any description" />
       </Head>
       <TransitionEffect />
