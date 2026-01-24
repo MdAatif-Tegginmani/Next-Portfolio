@@ -12,9 +12,9 @@ const Details = ({type ,time, place , info}) =>{
                 {info}
             </p>
         </div>
-    
+
     </li>
-} 
+}
 
 const Education = () => {
   return (
@@ -23,22 +23,19 @@ const Education = () => {
       Education
     </h2>
     <div className='w-[75%] mx-auto relative lg:w-[90%] md:w-full'>
-   
+
     <div className='absolute left-8 top-0 w-[4px] h-full bg-dark dark:bg-light origin-top md:w-[2px] md:left-[30px] xs:left-[20px]' />
-    
-   
+
+
         <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2 md:ml-2'>
             <Details
-            type='Bachelor of Engineering' 
-            time=" 2017-2021"  place=' BLDEs V P Dr PG Halakatti College of Engineering & Technology '
-            info='Alumni of an esteemed engineering institution, graduating in Mechanical Engineering in 2021. The program provided a comprehensive education in mechanical principles and problem-solving, shaping a strong foundation for my career.' 
-            
+            type='Bachelor of Engineering in Mechanical Engineering'
+            time="2017-2021"  place='BLDEs V P Dr. P.G. Halakatti College of Engineering & Technology, Bijapur'
+            info='Completed a comprehensive engineering curriculum with strong foundational knowledge in mechanical systems, design principles, and problem-solving. This technical background provided valuable insights into systems thinking and engineering excellence that I apply to software architecture and product development.'
             />
-            
-          
         </ul>
     </div>
-    
+
     </div >
   )
 }
