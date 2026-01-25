@@ -30,7 +30,7 @@ const about = () => {
                 Biography
               </h2>
               <p className="font-medium    ">
-              I'm Md Aatif Tegginmani, a Full-Stack Developer and Automation Engineer based in Bengaluru, Karnataka. I build scalable SaaS products, workflow automation systems, and production-ready web applications that solve real business problems.
+              I&apos;m Md Aatif Tegginmani, a Full-Stack Developer and Automation Engineer based in Bengaluru, Karnataka. I build scalable SaaS products, workflow automation systems, and production-ready web applications that solve real business problems.
               </p>
 
               <p className="font-medium mt-4  ">
